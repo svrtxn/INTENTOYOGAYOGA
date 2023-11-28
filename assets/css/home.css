@@ -48,6 +48,51 @@ main {
     width: 80px;
 }
 
+.logo-container {
+    display: flex;
+
+    /* Asegura que los elementos estén uno debajo del otro */
+}
+
+.logo-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centra horizontalmente los elementos */
+    text-align: center;
+    /* Alinea el texto al centro */
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    /* Espacio entre cada logo y texto */
+}
+
+.logo-icon4 {
+
+    filter: brightness(0);
+    /* Convierte la imagen a completamente negra */
+}
+
+.logo-icon,
+.logo-icon2,
+.logo-icon3,
+.logo-icon4 {
+    width: 8rem;
+    /* Ajusta el ancho de las imágenes según tu diseño */
+    height: 8rem;
+    /* Ajusta la altura de las imágenes según tu diseño */
+    /* Añade cualquier otro estilo necesario para las imágenes */
+}
+
+.logo-text {
+    margin-top: 10px;
+
+    /* Espacio entre la imagen y el texto */
+    /* Otros estilos para el texto */
+}
+
 .contenido-index span {
     color: var(--color-primary);
 }
@@ -67,22 +112,20 @@ main {
     text-align: center;
 }
 
-.container-cards {
-    display: flex;
-    justify-content: center;
-}
-
 .card {
     display: inline-block;
-    width: 300px;
+    width: 350px;
+    /* Ancho aumentado de las tarjetas */
     border: 1px solid #ccc;
     margin: 10px;
+    /* Espacio exterior de las tarjetas */
     padding: 10px;
     transition: 0.4s;
 }
 
 .card img {
     width: 100%;
+    /* Imágenes ocupan el 100% del ancho de las tarjetas */
     height: auto;
 }
 
@@ -95,7 +138,6 @@ main {
 .card p {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.5);
-    ;
     text-align: center;
 }
 
@@ -104,6 +146,22 @@ main {
     transition: 0.5s;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+/* Agregar espacio entre las tarjetas */
+.container-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* Permite que las tarjetas se envuelvan a una nueva línea si no caben todas en una sola fila */
+}
+
+
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 /* OSCURO */
 body.dark-mode .card {
@@ -129,6 +187,16 @@ body.dark-mode .logo-icon2 {
 
 body.dark-mode .logo-icon3 {
     filter: invert(100%) sepia(100%) saturate(0) hue-rotate(108deg);
+}
+
+body.dark-mode .logo-icon4 {
+
+    filter: brightness(100);
+    /* Convierte la imagen a completamente negra */
+}
+
+body.dark-mode i:hover {
+    color: #bbbbbb;
 }
 
 
