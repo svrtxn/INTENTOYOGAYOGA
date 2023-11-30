@@ -11,8 +11,24 @@ main {
     margin-right: 150px;
 }
 
+
+
+
+
 .tittle span {
     color: var(--color-primary);
+
+}
+
+.nosotros-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texto-suc {
+    max-width: 80%;
 }
 
 #btn-modal {

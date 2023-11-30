@@ -5,13 +5,21 @@
 }
 
 main {
-    margin-top: 100px;
+    margin-top: 8%;
     margin-left: 100px;
     margin-right: 100px;
 }
 
-span {
+
+
+.tittle span {
     color: var(--color-primary);
+
+}
+
+.tittle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 #titulo-clases {
@@ -34,6 +42,45 @@ span {
     width: 100%;
 
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto {
+    padding: 20px;
+    max-width: 50%;
+}
+
+.img-clases {
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Estilos opcionales para dar formato */
+h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+.reversed {
+    flex-direction: row-reverse;
+}
+
 
 
 .card {

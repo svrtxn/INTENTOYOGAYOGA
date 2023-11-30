@@ -14,6 +14,54 @@ main {
     margin-top: 120px;
 }
 
+.container-QR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-qr {
+    max-width: 30%;
+    height: auto;
+}
+
+.qr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr h1 {
+    margin-bottom: 0px;
+    color: #fa734e;
+}
+
+.qr img {
+    margin-top: 0px;
+}
+
+.texto {
+    padding: 20px;
+    max-width: 30%;
+}
+
+
+
+.nosotros-informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-nosotros {
+    max-width: 80%;
+}
+
+/* Estilos opcionales para dar formato */
+
+
 /* HEADER */
 #superior {
     max-height: 220px;

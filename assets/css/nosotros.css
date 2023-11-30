@@ -14,6 +14,10 @@ main {
     color: var(--color-primary);
 }
 
+.tittle {
+    margin-bottom: 3rem;
+}
+
 .card {
     width: 250px;
     height: 300px;
@@ -26,8 +30,16 @@ main {
     transition-duration: .5s;
 }
 
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+
 #titulo-profile {
-    margin-left: 10px;
+    text-align: left;
 }
 
 .nosotros {
