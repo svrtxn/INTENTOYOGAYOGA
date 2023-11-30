@@ -46,6 +46,9 @@ main {
     max-width: 30%;
 }
 
+#link {
+    text-decoration: none;
+}
 
 
 .nosotros-informacion {
