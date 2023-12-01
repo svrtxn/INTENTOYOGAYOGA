@@ -75,6 +75,13 @@ main {
     /* Convierte la imagen a completamente negra */
 }
 
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo-icon,
 .logo-icon2,
 .logo-icon3,
@@ -84,6 +91,19 @@ main {
     height: 8rem;
     /* Ajusta la altura de las imágenes según tu diseño */
     /* Añade cualquier otro estilo necesario para las imágenes */
+}
+
+.boton-descarga {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fa734e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton-descarga:hover {
+    background-color: #a2442a;
 }
 
 .logo-text {
